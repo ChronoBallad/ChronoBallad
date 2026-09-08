@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lullaby | Saltatio Noctis Infinita</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: #000;
+      color: #fff;
+    }
+
+    body {
+      margin: 0;
+      padding: 48px 24px;
+      background: #000;
+      color: #fff;
+      font-family: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP", "MS PMincho", serif;
+      font-size: 16px;
+      line-height: 2.2;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 48px;
+      font-size: 1.4em;
+      font-weight: normal;
+      text-align: center;
+    }
+
+    .poem {
+      white-space: pre-wrap;
+      word-break: keep-all;
+      overflow-wrap: normal;
+    }
+
+    .signature {
+      margin-top: 48px;
+      text-align: right;
+      font-size: 0.9em;
+    }
+
+    .back {
+      margin-top: 64px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 32px 8px;
+        font-size: 14px;
+      }
+
+      h1 {
+        margin-bottom: 40px;
+      }
+
+      .signature {
+        font-size: 0.85em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>「lullaby」</h1>
+
+    <div class="poem">母なる海より生まれた。
+母という海から生まれた。
+愛情とは子を思う心であり、
+愛憎とは写し鏡への期待と失望だった。
+
+墓を掘るなら、2人分
+墓を掘るなら、2回分
+2つの墓に入るのは私とあなた。
+2つのどちらか、誰が入るでしょうね。
+
+認知は主観に、
+主観は歪に、
+いずれは盃を満たす。
+
+墓穴だったのか、弔いだったのか
+彼のみぞ知る
+親子だったのか、他人だったのか
+知る必要すらないほど、
+同一にはなれなかった。
+
+母が与えた愛情が、子にとってのしがらみに
+母が抱えた苦悩は、子にとって全ては理解し得ぬものだった
+
+その器とは墓穴だったのか
+はたまた揺籠だったのか
+それとも揺籠だと思っていた墓穴なのか
+墓穴が有り続けようとも、揺籠から始まるのか
+
+万物創世の神でない限り、
+全てを理解する事は叶わぬ。
+されど、分からぬ故に知ろうとする。
+
+【───それもまた、</br>悲運を抱いた生命の揺曳であるのかも知れないね。】</div>
+
+    <div class="signature">──────────────Chrono Ballad</div>
+
+    <nav class="back">
+      <a href="index.html">作品一覧へ戻る</a>
+    </nav>
+  </main>
+</body>
+</html>
