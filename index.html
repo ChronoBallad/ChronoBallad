@@ -16,11 +16,9 @@
       --fg: #fff;
     }
 
-
     * {
       box-sizing: border-box;
     }
-
 
     html,
     body {
@@ -30,7 +28,6 @@
       background: var(--bg);
       color: var(--fg);
     }
-
 
     body {
       font-family:
@@ -43,7 +40,6 @@
       -webkit-text-size-adjust: 100%;
       text-rendering: optimizeLegibility;
     }
-
 
     main {
       width: min(100%, 760px);
@@ -101,7 +97,6 @@
       letter-spacing: 0.025em;
     }
 
-
     .intro-line {
       margin: 0;
     }
@@ -114,8 +109,13 @@
     .works {
       width: 100%;
       margin-top: 110px;
-    }
 
+      display: flex;
+      flex-direction: column;
+
+      /* 作品同士の間隔 */
+      gap: 0.25px;
+    }
 
     .work {
       width: 100%;
@@ -123,7 +123,6 @@
       margin: 0;
       padding: 0;
     }
-
 
     .work-link {
       display: block;
@@ -135,17 +134,14 @@
       text-decoration: none;
     }
 
-
     .work-link:visited {
       color: #fff;
     }
-
 
     .work-link:hover,
     .work-link:focus {
       text-decoration: none;
     }
-
 
     .work-title {
       display: block;
@@ -166,7 +162,6 @@
       word-break: keep-all;
       overflow-wrap: normal;
     }
-
 
     .work-subtitle {
       display: block;
@@ -198,7 +193,6 @@
       overflow-wrap: normal;
     }
 
-
     .single-title {
       display: block;
 
@@ -208,7 +202,8 @@
         34px
       );
 
-      line-height: 1.3;
+      /* 文字の上下の余分な行間を抑える */
+      line-height: 1;
 
       font-weight: 400;
 
@@ -229,11 +224,9 @@
           120px;
       }
 
-
       h1 {
         font-size: 34px;
       }
-
 
       .introduction {
         margin-top: 64px;
@@ -245,11 +238,9 @@
         line-height: 2.1;
       }
 
-
       .works {
         margin-top: 95px;
       }
-
 
       .work-title,
       .single-title {
@@ -261,7 +252,6 @@
 
         letter-spacing: 0.02em;
       }
-
 
       .work-subtitle {
         font-size: clamp(
@@ -296,7 +286,7 @@
       </p>
 
       <p class="intro-line">
-        そして仮面を付けた男も、</br>また幾度も醜悪へと向かうだろう。
+        そして仮面を付けた男も、<br>また幾度も醜悪へと向かうだろう。
       </p>
 
     </section>
@@ -307,6 +297,7 @@
     -->
 
     <div class="works">
+
       <p class="work">
         <a class="work-link" href="00.html">
 
@@ -316,9 +307,7 @@
 
         </a>
       </p>
-    </div>
 
-        <div class="works">
       <p class="work">
         <a class="work-link" href="01.html">
 
@@ -328,6 +317,7 @@
 
         </a>
       </p>
+
     </div>
 
   </main>
